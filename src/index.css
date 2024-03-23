@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #f9f5f5;
+
+}
+
+
+
+@font-face {
+  font-family: "SF Pro Display Thin";
+  src: url("/fonts/SF-Pro-Text-Thin.otf");
+}
+
+@font-face {
+  font-family: "SF Pro Display Ultralight";
+  src: url("/fonts/SF-Pro-Text-Ultralight.otf");
+}
+@font-face {
+  font-family: "SF Pro Display Light";
+  src: url("/fonts/SF-Pro-Text-Light.otf");
+}
+@font-face {
+  font-family: "SF Pro Display Regular";
+  src: url("/fonts/SF-Pro-Text-Regular.otf");
+}
+@font-face {
+  font-family: "SF Pro Display Medium";
+  src: url("/fonts/SF-Pro-Text-Medium.otf");
+}
+@font-face {
+  font-family: "SF Pro Display Semibold";
+  src: url("/fonts/SF-Pro-Text-Semibold.otf");
+}
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: url("/fonts/SF-Pro-Text-Bold.otf");
+}
+@font-face {
+  font-family: "SF Pro Display Heavy";
+  src: url("/fonts/SF-Pro-Text-Heavy.otf");
+}
+
